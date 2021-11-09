@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="152.291802">
+<testcase classname="Flujo de Ventas Fija" name="Como Usuario Activo, realizo login en Web Ventas Fijas" time="46.913205">
+<system-out><![CDATA[Given Abre login web de venta fija..........................................passed
+When Ingreso codatis y  doy click en continuar..............................passed
+And Obtengo token...........................................................passed
+Then Ingreso password y token,Clic en iniciar sesion........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Flujo de Ventas Fija" name="Como usuario activo,realizo una migracion" time="105.378597">
+<skipped><![CDATA[Given Selecciono migraciones................................................passed
+And Ingreso datos cliente a migrar..........................................passed
+And Selecciono producto a migrar............................................passed
+When Acepto las condiciones,resumen de venta y contrato.....................passed
+And Hago la validacion de reniec............................................passed
+Then Finalizo migracion.....................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Como Usuario Activo, realizo login en Web Ventas Fijas",
+        "description": "",
+        "id": "flujo-de-ventas-fija;como-usuario-activo,-realizo-login-en-web-ventas-fijas;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38583368400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Abre login web de venta fija",
+            "match": {
+              "location": "Steps.abriendo_el_navegador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1641413400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Ingreso codatis y  doy click en continuar",
+            "match": {
+              "location": "Steps.ingresa_codatis_continuar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1622670000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Obtengo token",
+            "match": {
+              "location": "Steps.Obtener_token()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5065752900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Ingreso password y token,Clic en iniciar sesion",
+            "match": {
+              "location": "Steps.ingresar_pass_token()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Como usuario activo,realizo una migracion",
+        "description": "",
+        "id": "flujo-de-ventas-fija;como-usuario-activo,realizo-una-migracion;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6177502800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Selecciono migraciones",
+            "match": {
+              "location": "Steps.ClickMigraciones()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9249868400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Ingreso datos cliente a migrar",
+            "match": {
+              "location": "Steps.DatosClienteMigrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33043193600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Selecciono producto a migrar",
+            "match": {
+              "location": "Steps.productoAmigrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13628444400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Acepto las condiciones,resumen de venta y contrato",
+            "match": {
+              "location": "Steps.ProcesodeCondicionesyVenta2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43279587700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Hago la validacion de reniec",
+            "match": {
+              "location": "Steps.ValidarReniec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "Finalizo migracion",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Flujo de Ventas Fija",
+    "description": "",
+    "id": "flujo-de-ventas-fija",
+    "keyword": "Feature",
+    "uri": "FlujoLogin.feature"
+  }
+]

@@ -1,0 +1,14 @@
+
+`
+java:S1192"LDefine a constant instead of duplicating this literal " no existe!" 3 times.(‘îÙ’
+f
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Âû¬ÿ
+N
+java:S1118":Add a private constructor to hide the implicit public one.(·øÇ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+Y	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‘îÙ’
+Y	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‘îÙ’
+^	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(×‹ä¿øÿÿÿÿ
+Y	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Âû¬ÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(³àÀ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û¶ç8ÄˆÈø.

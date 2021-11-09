@@ -1,0 +1,14 @@
+
+Pjavascript:S1117D"/'index' is already declared in the upper scope.(üÈşûÿÿÿÿ
+_javascript:S1516¹"=Multiline support is limited to browsers supporting ES5 only.(û²—€şÿÿÿÿ
+Ljavascript:S1854E"0Remove this useless assignment to variable "td".(î›§‘
+{javascript:S27030"_Add the "let", "const" or "var" keyword to this declaration of "dataTable" to make it explicit.(èı–µ
+Pjavascript:S11175"/'index' is already declared in the upper scope.(üÈşûÿÿÿÿ
+Ojavascript:S14816"3Remove the declaration of the unused 'td' variable.(ÄÓÌÉ
+Ojavascript:S1481E"3Remove the declaration of the unused 'td' variable.(î›§‘
+Ojavascript:S14814"3Remove the declaration of the unused 'tr' variable.(ı¬ÔÎ
+Ljavascript:S18544"0Remove this useless assignment to variable "tr".(ı¬ÔÎ
+Yjavascript:S1854"8Remove this useless assignment to variable "currentUri".(‡½îõÿÿÿÿÿ
+Ljavascript:S18546"0Remove this useless assignment to variable "td".(ÄÓÌÉ
+javascript:S2703³"_Add the "let", "const" or "var" keyword to this declaration of "errorNode" to make it explicit.(À§šûÿÿÿÿ
+{javascript:S2703*"_Add the "let", "const" or "var" keyword to this declaration of "docString" to make it explicit.(âŞğİ
